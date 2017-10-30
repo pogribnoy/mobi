@@ -18,9 +18,10 @@
   </author>
     
   <icon src="icon.png" />
+  <splash src="splash.png" />
     
   <platform name="android">
-      <icon src="icon-60@3x.png" width="180" height="180" />
+      
   </platform>
     
   <plugin name="cordova-plugin-whitelist" />
