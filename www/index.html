@@ -25,6 +25,12 @@
 
     console.log('Received Event: ' + id);
   }
+  function showAlert() {
+    navigator.notification.alert("Testing notification.alert", afterAlert, "Alert title", "Button");
+  }
+  function afterAlert() {
+    // Do something
+  }
 </script>
 
 <script type="text/javascript" src="cordova.js">
